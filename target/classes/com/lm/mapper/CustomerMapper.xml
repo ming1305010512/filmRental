@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lm.mapper.CustomerMapper">
+
+    <sql id="customerField">
+        customer.first_name firstName,
+        customer.last_name lastName,
+        address.address,
+        customer.email,
+        customer.customer_id customerId,
+        customer.last_update lastUpdate
+    </sql>
+
+    <!--根据firstName查询用户个数-->
+    <select id="queryCustomerCountByFirstName" parameterType="java.lang.String" resultType="int">
+        select count(1) from customer
+        <where>
+            first_name=#{value}
+        </where>
+    </select>
+
+    <!--查询用户所有信息-->
+    <select id="queryAllCustomer" resultType="com.lm.po.CustomerWithAddress">
+
+        SELECT
+           <include refid="customerField"></include>
+        FROM
+            customer,
+            address
+        WHERE
+            customer.address_id = address.address_id
+            ORDER BY customer.customer_id
+    </select>
+
+    <!--新增用户-->
+    <insert id="addCustomer" parameterType="com.lm.po.CustomerWithAddress">
+        INSERT INTO customer (
+            first_name,
+            last_name,
+            email,
+            address_id,
+            create_date,
+            store_id
+        )
+        VALUES( #{firstName},#{lastName},#{email},
+                (
+                    SELECT
+                        address_id
+                    FROM
+                        address
+                    WHERE
+                        address = #{address}
+                ),
+                #{createDate},
+                #{storeId}
+            )
+
+    </insert>
+
+    <!--查询用户信息-->
+    <select id="queryCustomerById" parameterType="java.lang.Short" resultType="com.lm.po.CustomerWithAddress">
+        SELECT
+        <include refid="customerField"></include>
+        FROM
+            customer,
+            address
+        <where>
+            customer.address_id = address.address_id and customer.customer_Id=#{value}
+        </where>
+    </select>
+
+    <!--更新用户-->
+    <update id="updateCustomer" parameterType="com.lm.po.CustomerWithAddress">
+      UPDATE customer
+        SET
+          first_name = #{firstName},
+          last_name = #{lastName},
+             address_id = (
+                SELECT
+                    address_id
+                FROM
+                    address
+                WHERE
+                    address = #{address}
+            ),
+        <if test="email!=null">
+          email = #{email},
+        </if>
+          last_update = #{lastUpdate}
+        <where>
+            customer_id = #{customerId}
+        </where>
+    </update>
+
+    <!--删除用户信息-->
+    <delete id="deleteCustomerById" parameterType="java.lang.Short">
+        DELETE from customer where customer_id=#{value}
+    </delete>
+
+    <!--根据customer_id删除rental数据-->
+    <delete id="deleteRentalByCustomerId" parameterType="java.lang.Short">
+        delete from rental where customer_id=#{value}
+    </delete>
+    <!--根据customer_id删除payment数据-->
+    <delete id="deletePaymentByCustomerId" parameterType="java.lang.Short">
+        delete from payment where customer_id=#{VALUE }
+    </delete>
+</mapper>
