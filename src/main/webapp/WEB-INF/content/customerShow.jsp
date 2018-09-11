@@ -155,7 +155,7 @@
                                                 <span>客户列表</span>
                                             </div>
                                             <div class="col-md-2 col-md-offset-2">
-                                                <a class="btn btn-info btn-xs" href="/customer/addCustomer">新增</a>
+                                                <a class="btn btn-info btn-xs" href="${pageContext.request.contextPath}/customer/addCustomer">新增</a>
                                             </div>
                                         </div>
                                     </div>
