@@ -52,10 +52,11 @@
     </dependency>
 
     <!--数据库驱动包-->
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
-      <groupId>org.wisdom-framework</groupId>
+      <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.34_1</version>
+      <version>8.0.11</version>
     </dependency>
 
     <!--spring所需的依赖包-->
