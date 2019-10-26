@@ -253,6 +253,29 @@
       <artifactId>pagehelper</artifactId>
       <version>5.0.0</version>
     </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.9.3</version>
+    </dependency>
+
+    <!--quartz-->
+    <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+    <dependency>
+      <groupId>org.quartz-scheduler</groupId>
+      <artifactId>quartz</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongo-java-driver</artifactId>
+      <version>3.0.4</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>ssmExam</finalName>
@@ -278,6 +301,7 @@
           <include>config/properties/ValidationMessage.properties</include>
           <include>config/spring/applicationContext.xml</include>
           <include>config/spring/springmvc-config.xml</include>
+          <include>config/spring/learn/</include>
         </includes>
       </resource>
     </resources>
