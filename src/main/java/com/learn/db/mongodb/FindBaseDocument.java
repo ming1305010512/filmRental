@@ -9,7 +9,13 @@ import com.mongodb.client.model.Filters;
 import org.bson.Document;
 import org.junit.Before;
 import org.junit.Test;
-
+/**
+ * @Created with IDEA
+ * @author:龙鸣
+ * @Date:2019/10/28
+ * @Time:15:55
+ * @Description:查询文档
+ */
 public class FindBaseDocument {
 
     private MongoDatabase mongoDatabase;

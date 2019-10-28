@@ -11,7 +11,13 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static com.mongodb.client.model.Filters.*;
-
+/**
+ * @Created with IDEA
+ * @author:龙鸣
+ * @Date:2019/10/28
+ * @Time:15:55
+ * @Description:查询嵌入的文档记录
+ */
 public class FindEmbedDocument {
 
     private MongoDatabase mongoDatabase;

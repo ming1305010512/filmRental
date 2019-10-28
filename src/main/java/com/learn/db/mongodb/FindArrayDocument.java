@@ -14,7 +14,13 @@ import org.junit.Test;
 
 import static com.mongodb.client.model.Filters.*;
 import static java.util.Arrays.asList;
-
+/**
+ * @Created with IDEA
+ * @author:龙鸣
+ * @Date:2019/10/28
+ * @Time:15:55
+ * @Description:查询一个数组
+ */
 public class FindArrayDocument {
 
     private MongoDatabase mongoDatabase;
