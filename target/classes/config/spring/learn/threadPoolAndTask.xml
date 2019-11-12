@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/lang
+        http://www.springframework.org/schema/lang/spring-lang.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <bean id="user" class="com.learn.Utils.BeanUtils.dto.User"/>
+
+    <!--
+    when the above bean (messenger) is instantiated, this custom
+    BeanPostProcessor implementation will output the fact to the system console
+    -->
+    <bean class="com.learn.spring.BeanPostProcessor.InstantiationTracingBeanPostProcessor"/>
+
+    <!--<context:annotation-config/>-->
+    <!--<bean class="com.learn.spring.baseJavaAnnotation.SystemTestConfig"/>-->
+    <!--这里组件扫描，会将@Commonent注释的类自动成为组件扫描的候选类，相当于上面的两个配置-->
+    <context:component-scan base-package="com.learn.spring"/>
+
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>config.spring.learn.properties.format</value>
+                <value>config.spring.learn.properties.exceptions</value>
+
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value = "5"></property>
+        <property name = "maxPoolSize" value="10000"></property>
+        <property name="queueCapacity" value="25"></property>
+    </bean>
+
+
+    <!--自定义的任务-->
+    <bean id="myTask" class="com.learn.spring.ThreadPoolAndTask.MyTask"></bean>
+
+    <task:annotation-driven scheduler="myScheduler"></task:annotation-driven>
+    <task:scheduler id="myScheduler" pool-size="10"></task:scheduler>
+
+    <bean id="myTaskScheduler" class="com.learn.spring.ThreadPoolAndTask.MyTaskScheduler"></bean>
+
+    <bean id="threadPoolTaskScheduler" class="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler">
+        <property name="poolSize" value="10"></property>
+    </bean>
+
+</beans>
+

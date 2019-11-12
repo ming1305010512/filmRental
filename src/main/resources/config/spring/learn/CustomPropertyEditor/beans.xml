@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/lang
+        http://www.springframework.org/schema/lang/spring-lang.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="sample" class="com.learn.spring.CustomPropertyEditor.DependsOnExoticType">
+        <property name="type" value="aNameForExoticType"/>
+    </bean>
+
+    <!--使用CustomEditorConfigurer (bean工厂后处理器)方便地将对其他PropertyEditor实例的支持添加到ApplicationContext。-->
+    <!--<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">-->
+        <!--<property name="customEditors">-->
+            <!--<map>-->
+                <!--<entry key="com.learn.spring.CustomPropertyEditor.ExoticType" value="com.learn.spring.CustomPropertyEditor.ExoticTypeEditor"/>-->
+            <!--</map>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+    <!--根据第二种方式配置CustomEditorConfigurer-->
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="propertyEditorRegistrars">
+            <list>
+                <ref bean="customPropertyEditorRegistrar"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="customPropertyEditorRegistrar"
+          class="com.learn.spring.CustomPropertyEditor.implementTwoForPropertyEditorRegistrar.CustomPropertyEditorRegistrar"/>
+
+</beans>
+

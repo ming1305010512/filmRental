@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/lang
+        http://www.springframework.org/schema/lang/spring-lang.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="user" class="com.learn.Utils.BeanUtils.dto.User"/>
+
+    <!--
+    when the above bean (messenger) is instantiated, this custom
+    BeanPostProcessor implementation will output the fact to the system console
+    -->
+    <bean class="com.learn.spring.BeanPostProcessor.InstantiationTracingBeanPostProcessor"/>
+
+    <!--<context:annotation-config/>-->
+    <!--<bean class="com.learn.spring.baseJavaAnnotation.SystemTestConfig"/>-->
+    <!--这里组件扫描，会将@Commonent注释的类自动成为组件扫描的候选类，相当于上面的两个配置-->
+    <context:component-scan base-package="com.learn.spring.Validator"/>
+
+    <bean id="person" class="com.learn.spring.Validator.Person"/>
+    <bean id="personValidator" class="com.learn.spring.Validator.PersonValidator"/>
+
+
+</beans>
+
