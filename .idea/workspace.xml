@@ -7,192 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_12_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java7_2_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_12_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Annotation/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Annotation/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Annotation/Perform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Annotation/TestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Utils/BeanUtils/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Utils/BeanUtils/dto/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Utils/BeanUtils/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/Utils/BeanUtils/impl/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/bigData/kafka/KafkaTopicCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/bigData/kafka/KfkConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/bigData/kafka/KfkProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/bigData/zookeeper/ZookeeperBaseApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/designPatten/single/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/heap/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/Binary/BinaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/Binary/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/Reflect/Test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/Reflect/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/Thread/InturrecptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/annotation/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/annotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/collection/collectionsUtils/CollectionsUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/collection/list/CopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/collection/list/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/collection/map/MapPutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/collection/map/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/concurrence/BlockingQueue/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/concurrence/reentrantReadAndWriteLock/ReenctrantReadAndWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/concurrence/volatitle/VolatitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/dateCompare/DateCompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/dateCompare/GetMaxDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/decimal/BigDecimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/decimal/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/enumeration/EnumMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/enumeration/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/enumeration/PositionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/enumeration/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/exception/ExceptionCastRunexception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/exception/ExceptionThrowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/genericity/GenericContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/genericity/dto/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/genericity/dto/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/genericity/dto/RedApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/genericity/extendAndSupper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/jvm/GcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/lamba/functionInterface/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/lamba/functionInterface/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/lamba/predicate/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/lamba/sorted/SortedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/methodTest/MenthodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/newFeatures/lambda/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/newFeatures/lambda/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/newFeatures/lambda/MenthodInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/refrence/SingleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/regular_exception/RegularTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/transaction/FilmDispose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/transaction/FilmStatusUpdateFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/transaction/TransactionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/jvm/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/jvm/returnValue/ReturnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/AopAspectJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/IUserManagerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/AOP/UserManagerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ApplicationEvent/ApplicationEventTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ApplicationEvent/BlackListEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ApplicationEvent/BlackListNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ApplicationEvent/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/BeanPostProcessor/Boot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/BeanPostProcessor/InstantiationTracingBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/CustomPropertyEditor/DependsOnExoticType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/CustomPropertyEditor/ExoticType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/CustomPropertyEditor/ExoticTypeEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/CustomPropertyEditor/PropertyEditorTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/CustomPropertyEditor/implementTwoForPropertyEditorRegistrar/CustomPropertyEditorRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ThreadPoolAndTask/ManualExecuteTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ThreadPoolAndTask/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ThreadPoolAndTask/MyTaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/ThreadPoolAndTask/TimingExecuteTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/Validator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/Validator/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/Validator/ValiatorTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/RepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/ServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/SystemTestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/baseJavaAnnotation/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/spring/messageSource/TestMessageSourceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lm/po/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/ApplicationEvent/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/BeanPostProcessor/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/CustomPropertyEditor/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/Validator/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/properties/exceptions.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/properties/exceptions_en_GB.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/properties/format.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/learn/threadPoolAndTask.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssmExam_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssmExam_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssmExam_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssmExam_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2_1_b04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2_1_b04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2_rev_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2_rev_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_2_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_6_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_6_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_support_2_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_support_2_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/DeleteOrderListRepetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/DeleteOrderListRepetition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/FindTwoPositiveNumberMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/LongestManacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/NoRepetitionSubstringLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/OneThreeTwoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/TowAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/nestedListIterator/NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/unConprehandOffical/FindTwoPositiveNumberMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/TimeRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/kmp/Kmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/kmp/Kmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssmExam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssmExam.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/filmRental$TestMessageSourceMain.coverage" NAME="TestMessageSourceMain Coverage Results" MODIFIED="1548842133762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -243,6 +80,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1SiwtfZirTHGHsdKPDUxGH3Drjn" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -265,15 +105,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\properties" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\BeanPostProcessor" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring" />
-      <recent name="D:\学习\project\ssmExam\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.spring.baseJavaAnnotation" />
+      <recent name="com.learn.Annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\CustomPropertyEditor" />
@@ -283,13 +120,17 @@
       <recent name="D:\学习\project\ssmExam\src\main\webapp\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.arithmetic.unConprehandOffical" />
       <recent name="com.learn.java.enumeration" />
       <recent name="com.learn.java.enum" />
       <recent name="com.lm.po" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.spring.baseJavaAnnotation" />
-      <recent name="com.learn.Annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\properties" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\BeanPostProcessor" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring" />
+      <recent name="D:\学习\project\ssmExam\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KfkConsumer">
+  <component name="RunManager" selected="Application.TimeRange">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -313,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaBaseApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.bigData.kafka.KafkaBaseApi" />
+    <configuration name="DeleteOrderListRepetition2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.exercises.DeleteOrderListRepetition2" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.bigData.kafka.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,13 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KfkConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.bigData.kafka.KfkConsumer" />
+    <configuration name="FindTwoPositiveNumberMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.exercises.FindTwoPositiveNumberMedian" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.bigData.kafka.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,13 +182,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KfkProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.bigData.kafka.KfkProducer" />
+    <configuration name="LongestManacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.exercises.LongestManacher" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.bigData.kafka.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoRepetitionSubstringLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.exercises.NoRepetitionSubstringLength" />
+      <module name="ssmExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.arithmetic.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java.date.TimeRange" />
+      <module name="ssmExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java.date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,42 +266,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <method v="2" />
-    </configuration>
-    <configuration name="ZookeeperBaseApi.exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.bigData.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learn.bigData.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.bigData.zookeeper.ZookeeperBaseApi" />
-      <option name="METHOD_NAME" value="exist" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZookeeperBaseApi.getChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.bigData.zookeeper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learn.bigData.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.bigData.zookeeper.ZookeeperBaseApi" />
-      <option name="METHOD_NAME" value="getChildren" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -603,21 +436,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KafkaBaseApi" />
-      <item itemvalue="Application.KfkProducer" />
-      <item itemvalue="Application.KfkConsumer" />
-      <item itemvalue="JUnit.ZookeeperBaseApi.getChildren" />
-      <item itemvalue="JUnit.ZookeeperBaseApi.exist" />
+      <item itemvalue="Application.NoRepetitionSubstringLength" />
+      <item itemvalue="Application.DeleteOrderListRepetition2" />
+      <item itemvalue="Application.FindTwoPositiveNumberMedian" />
+      <item itemvalue="Application.LongestManacher" />
       <item itemvalue="Maven.tomcatJetty" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="Application.TimeRange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KfkConsumer" />
-        <item itemvalue="Application.KfkProducer" />
-        <item itemvalue="Application.KafkaBaseApi" />
-        <item itemvalue="JUnit.ZookeeperBaseApi.exist" />
-        <item itemvalue="JUnit.ZookeeperBaseApi.getChildren" />
+        <item itemvalue="Application.TimeRange" />
+        <item itemvalue="Application.LongestManacher" />
+        <item itemvalue="Application.FindTwoPositiveNumberMedian" />
+        <item itemvalue="Application.DeleteOrderListRepetition2" />
+        <item itemvalue="Application.NoRepetitionSubstringLength" />
       </list>
     </recent_temporary>
   </component>
@@ -760,6 +593,24 @@
       <workItem from="1573197701973" duration="2768000" />
       <workItem from="1573264237949" duration="1022000" />
       <workItem from="1573539717032" duration="254000" />
+      <workItem from="1616480528130" duration="11893000" />
+      <workItem from="1616501684146" duration="205000" />
+      <workItem from="1616501895445" duration="223000" />
+      <workItem from="1616502124888" duration="13351000" />
+      <workItem from="1616573977382" duration="10272000" />
+      <workItem from="1616652486818" duration="9778000" />
+      <workItem from="1616663973643" duration="1829000" />
+      <workItem from="1616669784264" duration="19926000" />
+      <workItem from="1616742708950" duration="424000" />
+      <workItem from="1616743144762" duration="322000" />
+      <workItem from="1616743479497" duration="355000" />
+      <workItem from="1616743853580" duration="2638000" />
+      <workItem from="1616746506139" duration="3318000" />
+      <workItem from="1616749843932" duration="708000" />
+      <workItem from="1616750572533" duration="2970000" />
+      <workItem from="1616808550233" duration="6712000" />
+      <workItem from="1616826906358" duration="1951000" />
+      <workItem from="1616978537293" duration="3604000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>
@@ -914,9 +765,59 @@
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.m2/repository/org/apache/kafka/kafka-clients/2.1.1/kafka-clients-2.1.1.jar!/org/apache/kafka/clients/ClusterConnectionStates.class</url>
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.1/kafka-clients-2.1.1.jar!/org/apache/kafka/clients/ClusterConnectionStates.class</url>
           <line>198</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/TowAdd.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/OneThreeTwoModel.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/DeleteOrderListRepetition.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/NoRepetitionSubstringLength.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/NoRepetitionSubstringLength.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/FindTwoPositiveNumberMedian.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/FindTwoPositiveNumberMedian.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/LongestManacher.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/LongestManacher.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/LongestManacher.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
