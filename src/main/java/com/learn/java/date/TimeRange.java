@@ -17,22 +17,23 @@ import java.util.List;
 public class TimeRange {
 
     public static void main(String[] args) throws ParseException {
-        String startDateStr = "2021-1-30";
-        String endDateStr = "2021-2-27";
+        String startDateStr = "2021-2-28";
+        String endDateStr = "2021-5-27";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date startDate = simpleDateFormat.parse(startDateStr);
         Date endDate = simpleDateFormat.parse(endDateStr);
-        List<String> months = getRangeDatesWithMonth(startDate,endDate,"MM");
-        months.stream().forEach(a->{
-            System.out.println(a);
-        });
+        List<String> months = getRangeDatesWithMonth(startDate,endDate,"yyyy-MM-dd");
+//        months.stream().forEach(a->{
+//            System.out.println(a);
+//        });
 
-//        String startDateStr = "2021-1-29";
+//        String startDateStr = "2021-1-31";
 //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 //        Date startDate = simpleDateFormat.parse(startDateStr);
 //        Calendar cd = Calendar.getInstance();
 //        cd.setTime(startDate);
 //        cd.add(Calendar.MONTH, 1);
+//        cd.add(Calendar.DAY_OF_MONTH, -1);
 //        Date aa = cd.getTime();
 //        String addMonthDate = simpleDateFormat.format(aa);
 //        System.out.println(addMonthDate);
@@ -44,6 +45,7 @@ public class TimeRange {
         Calendar cd = Calendar.getInstance();
         while(startDate.getTime() <= endDate.getTime()) {
             list.add(sdf.format(startDate));
+            System.out.println(sdf.format(startDate));
             cd.setTime(startDate);
             cd.add(Calendar.MONTH, 1);
             startDate = cd.getTime();

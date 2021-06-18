@@ -2,7 +2,10 @@ package com.learn.java.date.dateCompare;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.TimeZone;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @Created with IDEA
@@ -22,6 +25,24 @@ public class DateCompareTest {
             System.out.println("date1比date2小");
         }else {
             System.out.println("和预期不符");
+        }
+
+        Date nowDate = new Date();
+        String dateStr3 = "2021-3-31";
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Date date3 = new SimpleDateFormat("yyyy-MM-dd").parse(dateStr3);
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(nowDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        Date zero = calendar.getTime();
+        if (date3.getTime()<zero.getTime()){
+            System.out.println("date3比nowDate小");
+        }else if (date3.getTime()==zero.getTime()){
+            System.out.println("相等");
+        }else {
+            System.out.println("date3比nowDate大");
         }
     }
 }
