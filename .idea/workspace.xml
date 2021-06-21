@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/exercises/ReserseBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/one_two_dimension_find/TwoDimensionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/two_replace_blank/ReplaceBlank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/String/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/concurrence/ConcurrentLinkedQueue/ConCurrentLinkedQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java/date/TimeRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/TimeRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/java/date/dateCompare/DateCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/java/date/dateCompare/DateCompareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ssmExam.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/java/date/TimeRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/java/date/TimeRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/java/date/dateCompare/DateCompareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/java/date/dateCompare/DateCompareTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraversalLink">
+  <component name="RunManager" selected="Application.RebuildBinaryTree">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -152,13 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.Integer.IntegerTest" />
+    <configuration name="RebuildBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.rebuild_binary_tree.RebuildBinaryTree" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.Integer.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.rebuild_binary_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.java.String.StringTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.Test" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.java.String.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,21 +426,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.StringTest" />
-      <item itemvalue="Application.IntegerTest" />
       <item itemvalue="Application.TwoDimensionFind" />
       <item itemvalue="Application.ReplaceBlank" />
       <item itemvalue="Application.TraversalLink" />
+      <item itemvalue="Application.RebuildBinaryTree" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Maven.tomcatJetty" />
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RebuildBinaryTree" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TraversalLink" />
         <item itemvalue="Application.ReplaceBlank" />
         <item itemvalue="Application.TwoDimensionFind" />
-        <item itemvalue="Application.IntegerTest" />
-        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +612,10 @@
       <workItem from="1623929163105" duration="6149000" />
       <workItem from="1623976736703" duration="630000" />
       <workItem from="1623977804560" duration="13827000" />
-      <workItem from="1624008253003" duration="431000" />
+      <workItem from="1624008253003" duration="15064000" />
+      <workItem from="1624277701070" duration="378000" />
+      <workItem from="1624278090679" duration="163000" />
+      <workItem from="1624278264421" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>
@@ -868,6 +863,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java</url>
           <line>47</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

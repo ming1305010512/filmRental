@@ -90,9 +90,9 @@ public class TraversalLink {
             listNode = temptListNode;
 
         }
-        while (listNode!=null){
-            result.add(listNode.val);
-            listNode = listNode.next;
+        while (preListNode!=null){
+            result.add(preListNode.val);
+            preListNode = preListNode.next;
         }
         return result;
     }
