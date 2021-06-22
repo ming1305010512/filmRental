@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/three_traversal_link/TraversalLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -615,7 +615,12 @@
       <workItem from="1624008253003" duration="15064000" />
       <workItem from="1624277701070" duration="378000" />
       <workItem from="1624278090679" duration="163000" />
-      <workItem from="1624278264421" duration="347000" />
+      <workItem from="1624278264421" duration="1720000" />
+      <workItem from="1624323430514" duration="1953000" />
+      <workItem from="1624325397649" duration="1638000" />
+      <workItem from="1624327043890" duration="350000" />
+      <workItem from="1624327402761" duration="408000" />
+      <workItem from="1624327820365" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>
@@ -876,18 +881,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="114" />
+          <line>108</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="115" />
+          <line>87</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
           <line>38</line>
-          <option name="timeStamp" value="116" />
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -899,6 +914,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/filmRental$Kmp.ic" NAME="Kmp Coverage Results" MODIFIED="1572571029628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.learn.arithmetic.kmp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/filmRental$RebuildBinaryTree.ic" NAME="RebuildBinaryTree Coverage Results" MODIFIED="1624323630128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.learn.arithmetic.pointOffer.rebuild_binary_tree.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/filmRental$DateCompareTest.ic" NAME="DateCompareTest Coverage Results" MODIFIED="1617151520291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.learn.java.date.dateCompare.*</FILTER>

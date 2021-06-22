@@ -46,14 +46,25 @@ public class RebuildBinaryTree {
         System.arraycopy(in,0,leftSubIn,0,inIndex);
         int leftSubPre [] = new int[inIndex];
         System.arraycopy(pre,1,leftSubPre,0,inIndex);
-        TreeNode leftNode = new TreeNode(pre[1]);
-        treeNode.left = leftNode;
-        //获取左子树
-        getTreeNode(leftNode,leftSubPre,leftSubIn);
+        int nextValue = pre[1];
+        //判断下一个节点是左子节点还是右子节点
+        int nextIndex = getIndex(in,nextValue);
+        //下一节点为右子节点
+        if (nextIndex<inIndex) {
+            TreeNode leftNode = new TreeNode(pre[1]);
+            treeNode.left = leftNode;
+            //获取左子树
+            getTreeNode(leftNode, leftSubPre, leftSubIn);
+        }
+
         int rightSubIn [] = new int[in.length-(inIndex+1)];
-        System.arraycopy(in,inIndex+1,rightSubIn,in.length-1,in.length-(inIndex+1));
+        System.arraycopy(in,inIndex+1,rightSubIn,0,in.length-(inIndex+1));
         int rightSubPre [] = new int[in.length-(inIndex+1)];
-        System.arraycopy(pre,inIndex,rightSubPre,0,in.length-(inIndex+1));
+        System.arraycopy(pre,inIndex+1,rightSubPre,0,in.length-(inIndex+1));
+        //右子节点边界为在子树的最后一个节点
+        if (in.length==inIndex+1){
+            return treeNode;
+        }
         TreeNode rightNode = new TreeNode(pre[inIndex+1]);
         treeNode.right = rightNode;
         getTreeNode(rightNode,rightSubPre,rightSubIn);
@@ -71,27 +82,33 @@ public class RebuildBinaryTree {
         return result;
     }
 
-    public List<Object> levelTraversal(TreeNode treeNode){
+    public List<TreeNode> levelTraversal(TreeNode treeNode){
         Queue queue = new LinkedBlockingDeque();
         queue.add(treeNode);
-        Object value = 0;
-        List<Object> levelTree = new ArrayList<>();
-        while ((value = queue.poll())!=null){
+        TreeNode value = null;
+        List<TreeNode> levelTree = new ArrayList<>();
+        while ((value = (TreeNode) queue.poll())!=null){
             levelTree.add(value);
-            queue.add(treeNode.left);
-            queue.add(treeNode.right);
+            TreeNode leftNode = value.left;
+            TreeNode rightNode = value.right;
+            if (leftNode!=null) {
+                queue.add(value.left);
+            }
+            if (rightNode!=null) {
+                queue.add(value.right);
+            }
         }
         return levelTree;
     }
 
     public static void main(String[] args) {
-        int pre [] = new int[]{1,2,3,4,5,6,7};
-        int in [] = new int[]{3,2,4,1,6,5,7};
+        int pre [] = new int[]{1,2,4,3,5,6};
+        int in [] = new int[]{4,2,1,5,3,6};
         RebuildBinaryTree rebuildBinaryTree = new RebuildBinaryTree();
         TreeNode treeNode = rebuildBinaryTree.reConstructBinaryTree(pre,in);
-        List<Object> levelTree = rebuildBinaryTree.levelTraversal(treeNode);
+        List<TreeNode> levelTree = rebuildBinaryTree.levelTraversal(treeNode);
         for (int i=0;i<levelTree.size();i++){
-            System.out.println(levelTree.get(i)+" ");
+            System.out.print(levelTree.get(i).val+" ");
         }
 
     }
