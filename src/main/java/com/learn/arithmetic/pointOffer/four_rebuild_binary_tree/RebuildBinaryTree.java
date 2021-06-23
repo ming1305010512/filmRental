@@ -1,10 +1,8 @@
-package com.learn.arithmetic.pointOffer.rebuild_binary_tree;
+package com.learn.arithmetic.pointOffer.four_rebuild_binary_tree;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
@@ -36,6 +34,7 @@ public class RebuildBinaryTree {
     }
 
     public TreeNode getTreeNode(TreeNode treeNode,int []pre,int [] in){
+        //叶子节点处理
         int preLength = pre.length;
         if (preLength == 1){
             return new TreeNode(pre[0]);

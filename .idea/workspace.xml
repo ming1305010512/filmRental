@@ -7,10 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eight_dance_steps/DanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eleven_one_num_in_binary/OneNumInBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/fifteen_reverse_link/ReverseLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/five_tow_stack_to_queue/TwoStackToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTreeWithElegant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/fourteen_last_k_node_link/LastKNodeLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/nine_dance_steps_extend/DanceStepsExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seven_fibonacci_sequence/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/six_rotate_mix_num_with_array/RotateMixNumWithArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/ten_matrix_cover/MatrixCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/thirteen_make_odd_pre_with_even/MakeOddPreWithEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/BinaryWayNumPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/NumPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/RecursionWayNumPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RebuildBinaryTree">
+  <component name="RunManager" selected="Application.MergeTwoOrderedLink">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -144,13 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RebuildBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.rebuild_binary_tree.RebuildBinaryTree" />
+    <configuration name="BinaryWayNumPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.twelve_num_power.BinaryWayNumPower" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.rebuild_binary_tree.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.twelve_num_power.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceBlank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.two_replace_blank.ReplaceBlank" />
+    <configuration name="LastKNodeLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.fourteen_last_k_node_link.LastKNodeLink" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.two_replace_blank.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.fourteen_last_k_node_link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,13 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.Test" />
+    <configuration name="MakeOddPreWithEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.thirteen_make_odd_pre_with_even.MakeOddPreWithEven" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.thirteen_make_odd_pre_with_even.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,13 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.three_traversal_link.TraversalLink" />
+    <configuration name="MergeTwoOrderedLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.MergeTwoOrderedLink" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.three_traversal_link.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,17 +216,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.one_two_dimension_find.TwoDimensionFind" />
+    <configuration name="ReverseLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.fifteen_reverse_link.ReverseLink" />
       <module name="ssmExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.one_two_dimension_find.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.fifteen_reverse_link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
-        <option name="MakeNoErrorCheck" enabled="true" />
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -426,21 +442,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TwoDimensionFind" />
-      <item itemvalue="Application.ReplaceBlank" />
-      <item itemvalue="Application.TraversalLink" />
-      <item itemvalue="Application.RebuildBinaryTree" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BinaryWayNumPower" />
+      <item itemvalue="Application.MakeOddPreWithEven" />
+      <item itemvalue="Application.LastKNodeLink" />
+      <item itemvalue="Application.ReverseLink" />
+      <item itemvalue="Application.MergeTwoOrderedLink" />
       <item itemvalue="Maven.tomcatJetty" />
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RebuildBinaryTree" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TraversalLink" />
-        <item itemvalue="Application.ReplaceBlank" />
-        <item itemvalue="Application.TwoDimensionFind" />
+        <item itemvalue="Application.MergeTwoOrderedLink" />
+        <item itemvalue="Application.ReverseLink" />
+        <item itemvalue="Application.LastKNodeLink" />
+        <item itemvalue="Application.MakeOddPreWithEven" />
+        <item itemvalue="Application.BinaryWayNumPower" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +636,15 @@
       <workItem from="1624325397649" duration="1638000" />
       <workItem from="1624327043890" duration="350000" />
       <workItem from="1624327402761" duration="408000" />
-      <workItem from="1624327820365" duration="241000" />
+      <workItem from="1624327820365" duration="2477000" />
+      <workItem from="1624343632795" duration="4323000" />
+      <workItem from="1624347969400" duration="14791000" />
+      <workItem from="1624415595049" duration="2035000" />
+      <workItem from="1624417659466" duration="8178000" />
+      <workItem from="1624432633753" duration="209000" />
+      <workItem from="1624432912809" duration="4329000" />
+      <workItem from="1624437253040" duration="613000" />
+      <workItem from="1624437873742" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>
@@ -880,29 +904,64 @@
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>109</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>87</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>88</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>60</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>49</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java</url>
+          <line>39</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTreeWithElegant.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTreeWithElegant.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTreeWithElegant.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seven_fibonacci_sequence/FibonacciSequence.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eleven_one_num_in_binary/OneNumInBinary.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/NumPower.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/thirteen_make_odd_pre_with_even/MakeOddPreWithEven.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
