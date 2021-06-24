@@ -7,10 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eighteen_binary_tree_image/BinaryTreeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eighteen_binary_tree_image/TraversalWayBinaryTreeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/nineteen_clockwise_print_matrix/ClockwisePrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seventeen_tree_substructure/TreeSubstructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twenty_include_min_func_stack/IncludeMinFuncStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twenty_one_stack_push_and_pop/StackPushAndPop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,9 +101,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.spring.baseJavaAnnotation" />
-      <recent name="com.learn.Annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\properties" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\BeanPostProcessor" />
+      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring" />
+      <recent name="D:\学习\project\ssmExam\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\CustomPropertyEditor" />
@@ -115,12 +121,9 @@
       <recent name="com.learn.java.enum" />
       <recent name="com.lm.po" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\properties" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring\learn\BeanPostProcessor" />
-      <recent name="C:\学习\项目\film\filmRental\src\main\resources\config\spring" />
-      <recent name="D:\学习\project\ssmExam\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.spring.baseJavaAnnotation" />
+      <recent name="com.learn.Annotation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OtherWayMergeTwoOrderedLink">
+  <component name="RunManager" selected="Application.StackPushAndPop">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -144,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastKNodeLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.fourteen_last_k_node_link.LastKNodeLink" />
+    <configuration name="BinaryTreeImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.eighteen_binary_tree_image.BinaryTreeImage" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.fourteen_last_k_node_link.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.eighteen_binary_tree_image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeOddPreWithEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.thirteen_make_odd_pre_with_even.MakeOddPreWithEven" />
+    <configuration name="ClockwisePrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.nineteen_clockwise_print_matrix.ClockwisePrintMatrix" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.thirteen_make_odd_pre_with_even.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.nineteen_clockwise_print_matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,13 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoOrderedLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.MergeTwoOrderedLink" />
+    <configuration name="StackPushAndPop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.twenty_one_stack_push_and_pop.StackPushAndPop" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.twenty_one_stack_push_and_pop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,13 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherWayMergeTwoOrderedLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.OtherWayMergeTwoOrderedLink" />
+    <configuration name="TraversalWayBinaryTreeImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.eighteen_binary_tree_image.TraversalWayBinaryTreeImage" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.eighteen_binary_tree_image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,13 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.fifteen_reverse_link.ReverseLink" />
+    <configuration name="TreeSubstructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.seventeen_tree_substructure.TreeSubstructure" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.fifteen_reverse_link.*" />
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.seventeen_tree_substructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,21 +429,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MakeOddPreWithEven" />
-      <item itemvalue="Application.LastKNodeLink" />
-      <item itemvalue="Application.ReverseLink" />
-      <item itemvalue="Application.MergeTwoOrderedLink" />
-      <item itemvalue="Application.OtherWayMergeTwoOrderedLink" />
+      <item itemvalue="Application.TreeSubstructure" />
+      <item itemvalue="Application.BinaryTreeImage" />
+      <item itemvalue="Application.TraversalWayBinaryTreeImage" />
+      <item itemvalue="Application.ClockwisePrintMatrix" />
+      <item itemvalue="Application.StackPushAndPop" />
       <item itemvalue="Maven.tomcatJetty" />
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OtherWayMergeTwoOrderedLink" />
-        <item itemvalue="Application.MergeTwoOrderedLink" />
-        <item itemvalue="Application.ReverseLink" />
-        <item itemvalue="Application.LastKNodeLink" />
-        <item itemvalue="Application.MakeOddPreWithEven" />
+        <item itemvalue="Application.StackPushAndPop" />
+        <item itemvalue="Application.ClockwisePrintMatrix" />
+        <item itemvalue="Application.TraversalWayBinaryTreeImage" />
+        <item itemvalue="Application.BinaryTreeImage" />
+        <item itemvalue="Application.TreeSubstructure" />
       </list>
     </recent_temporary>
   </component>
@@ -629,6 +632,20 @@
       <workItem from="1624432912809" duration="4329000" />
       <workItem from="1624437253040" duration="613000" />
       <workItem from="1624437873742" duration="3564000" />
+      <workItem from="1624495926368" duration="4845000" />
+      <workItem from="1624501063034" duration="161000" />
+      <workItem from="1624501232668" duration="1760000" />
+      <workItem from="1624503016978" duration="131000" />
+      <workItem from="1624503157059" duration="2490000" />
+      <workItem from="1624511585234" duration="3032000" />
+      <workItem from="1624514626861" duration="166000" />
+      <workItem from="1624514801603" duration="339000" />
+      <workItem from="1624515146737" duration="387000" />
+      <workItem from="1624515539288" duration="391000" />
+      <workItem from="1624515939418" duration="402000" />
+      <workItem from="1624516348353" duration="7234000" />
+      <workItem from="1624533377904" duration="1328000" />
+      <workItem from="1624536700695" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>
@@ -946,6 +963,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/thirteen_make_odd_pre_with_even/MakeOddPreWithEven.java</url>
           <line>40</line>
           <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seventeen_tree_substructure/TreeSubstructure.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seventeen_tree_substructure/TreeSubstructure.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eighteen_binary_tree_image/TraversalWayBinaryTreeImage.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/nineteen_clockwise_print_matrix/ClockwisePrintMatrix.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twenty_one_stack_push_and_pop/StackPushAndPop.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
