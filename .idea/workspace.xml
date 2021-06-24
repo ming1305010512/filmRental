@@ -7,26 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb7d5f6-4289-4ab7-8140-c1318f9c6957" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eight_dance_steps/DanceSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/eleven_one_num_in_binary/OneNumInBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/fifteen_reverse_link/ReverseLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/five_tow_stack_to_queue/TwoStackToQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTreeWithElegant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/fourteen_last_k_node_link/LastKNodeLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/nine_dance_steps_extend/DanceStepsExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/seven_fibonacci_sequence/FibonacciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/six_rotate_mix_num_with_array/RotateMixNumWithArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/ten_matrix_cover/MatrixCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/thirteen_make_odd_pre_with_even/MakeOddPreWithEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/BinaryWayNumPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/NumPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/twelve_num_power/RecursionWayNumPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/four_rebuild_binary_tree/RebuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/RebuildBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/rebuild_binary_tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/OtherWayMergeTwoOrderedLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learn/arithmetic/pointOffer/sixteen_merge_two_ordered_link/MergeTwoOrderedLink.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,25 +135,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoOrderedLink">
+  <component name="RunManager" selected="Application.OtherWayMergeTwoOrderedLink">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryWayNumPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.twelve_num_power.BinaryWayNumPower" />
-      <module name="ssmExam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.twelve_num_power.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,6 +174,20 @@
     </configuration>
     <configuration name="MergeTwoOrderedLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.MergeTwoOrderedLink" />
+      <module name="ssmExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherWayMergeTwoOrderedLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.arithmetic.pointOffer.sixteen_merge_two_ordered_link.OtherWayMergeTwoOrderedLink" />
       <module name="ssmExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -442,21 +426,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryWayNumPower" />
       <item itemvalue="Application.MakeOddPreWithEven" />
       <item itemvalue="Application.LastKNodeLink" />
       <item itemvalue="Application.ReverseLink" />
       <item itemvalue="Application.MergeTwoOrderedLink" />
+      <item itemvalue="Application.OtherWayMergeTwoOrderedLink" />
       <item itemvalue="Maven.tomcatJetty" />
       <item itemvalue="Tomcat Server.tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OtherWayMergeTwoOrderedLink" />
         <item itemvalue="Application.MergeTwoOrderedLink" />
         <item itemvalue="Application.ReverseLink" />
         <item itemvalue="Application.LastKNodeLink" />
         <item itemvalue="Application.MakeOddPreWithEven" />
-        <item itemvalue="Application.BinaryWayNumPower" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +628,7 @@
       <workItem from="1624432633753" duration="209000" />
       <workItem from="1624432912809" duration="4329000" />
       <workItem from="1624437253040" duration="613000" />
-      <workItem from="1624437873742" duration="2711000" />
+      <workItem from="1624437873742" duration="3564000" />
     </task>
     <task id="LOCAL-00001" summary="mongo学习">
       <created>1572072730260</created>

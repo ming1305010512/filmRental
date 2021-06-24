@@ -22,8 +22,26 @@ public class OtherWayMergeTwoOrderedLink {
         if (list2 == null){
             return list1;
         }
+        ListNode resultNode = null;
         if (list1.val <= list2.val){
-            list1
+            list1.next = Merge(list1.next,list2);
+            resultNode = list1;
+        }
+        if (list2.val <= list1.val){
+            list2.next = Merge(list1,list2.next);
+            resultNode = list2;
+        }
+        return resultNode;
+    }
+
+    public static void main(String[] args) {
+        OtherWayMergeTwoOrderedLink otherWayMergeTwoOrderedLink = new OtherWayMergeTwoOrderedLink();
+        ListNode listNode1 = new ListNode(1,new ListNode(3,new ListNode(5,null)));
+        ListNode listNode2 = new ListNode(2,new ListNode(4,new ListNode(6,null)));
+        ListNode resultNode = otherWayMergeTwoOrderedLink.Merge(listNode1,listNode2);
+        while (resultNode!=null){
+            System.out.print(resultNode.val+" ");
+            resultNode = resultNode.next;
         }
     }
 }
